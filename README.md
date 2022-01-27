@@ -7,7 +7,7 @@ De momento llevo poca cosa, pero adjunto una checklist con cosas que implementar
 
 ---
 
-##Checklist:
+## Checklist:
 - [ ] Empezar a usa esto, que parece que mola bastante XD
 - [ ]
 - [ ]
