@@ -19,6 +19,15 @@ html{
 /*VARIABLES*/
 :root{
     /*FUENTES*/
-    --open-sans: 'Open Sans', sans-serif;
-    --pt-sans: 'PT Sans', sans-serif;
+    --parrafo: 'Open Sans', sans-serif;
+    --encabezado: 'PT Sans', sans-serif;
+
+    /*COLORES*/
+    --blanco: rgb(255, 255, 255);
+    --negro: rgb(0, 0, 0);
+    --cafe: #784d3c;
 }
+
+
+
+/*GENERALES*/
