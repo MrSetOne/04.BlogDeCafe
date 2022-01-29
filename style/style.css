@@ -45,7 +45,8 @@ li{list-style: none;}
 
 
 /***UTILIDADES***/
-.center{text-align: center;}
+.center-text{text-align: center;}
+.center-element{margin:0 auto}
 .flex-center{display: flex;align-items: center;justify-content: center;}
 .c-white{color: var(--blanco);}
 
