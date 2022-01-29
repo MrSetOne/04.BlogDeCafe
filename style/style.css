@@ -74,10 +74,6 @@ header{
 
 .logo{
     font-weight: normal;
-}
-
-.logo,
-.header__description h1{
     font-size: clamp(2.6rem, 12vw, 4rem);
 }
 
@@ -99,6 +95,10 @@ header{
     font-size: clamp(1.4rem, 6vw, 1.8rem)
 }
 
+.header__description h3{
+    font-size: clamp(1.82rem, 8.4vw, 2.8rem);
+}
+
 .header__description p{
     padding-bottom: 4rem;
 }
@@ -113,6 +113,10 @@ header{
 
     .header__superior{flex-direction:column;}
     .header__description p{line-height: 1.5;}
+
+    .header__superior{
+        margin-bottom: 3rem;
+    }
 }
 
 @media (max-width: 220px){

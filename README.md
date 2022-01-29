@@ -8,7 +8,7 @@ De momento llevo poca cosa, pero adjunto una checklist con cosas que implementar
 ---
 
 ## Checklist:
-- [ ] El titulo de la descripcion dentro del header lo tengo puesto como un H1, modificar a H2 para que sea mas correcto para el SEO y de paso modificar el tamaño, y hacerlo un poco mas pequeño (Para esto usar el tamaño del H1 dividiendo todas la partes del Clam)
+- [X] El titulo de la descripcion dentro del header lo tengo puesto como un H1, modificar a H2 para que sea mas correcto para el SEO y de paso modificar el tamaño, y hacerlo un poco mas pequeño (Para esto usar el tamaño del H1 dividiendo todas la partes del Clam)
 - [ ]
 - [ ]
 - [ ]
