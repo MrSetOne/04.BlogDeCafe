@@ -17,6 +17,9 @@ html{
 
 
 
+
+
+
 /***VARIABLES***/
 :root{
     /*FUENTES*/
@@ -31,16 +34,22 @@ html{
 
 
 
+
+
+
 /***GENERALES***/
 *{font-family: var(--parrafo);}
-h1{font-size: 4rem;}
+h1{font-size: clamp(2.6rem, 12vw, 4rem);}
 h2{font-size: 3.4rem;}
-h3{font-size: 2.8rem;}
+h3{font-size: clamp(1.82rem, 8.4vw, 2.8rem);}
 h4{font-size: 2.2rem;}
-p{font-size: 1.8rem;}
+a,p{font-size: clamp(1.4rem, 6vw, 1.8rem);}
 a{text-decoration: none;}
 h1,h2,h3,h4{font-family: var(--encabezado); font-weight: 700;}
 li{list-style: none;}
+
+
+
 
 
 
@@ -49,6 +58,9 @@ li{list-style: none;}
 .center-element{margin:0 auto}
 .flex-center{display: flex;align-items: center;justify-content: center;}
 .c-white{color: var(--blanco);}
+
+
+
 
 
 
@@ -79,7 +91,6 @@ header{
     /*LOGO*/
 .logo{
     font-weight: normal;
-    font-size: clamp(2.6rem, 12vw, 4rem);
 }
 
 .logo span{
@@ -96,16 +107,7 @@ header{
     font-family: var(--parrafo);
 }
 
-.nav__item,
-.header__description p{
-    font-size: clamp(1.4rem, 6vw, 1.8rem)
-}
-
     /*DECRIPCION*/
-.header__description h3{
-    font-size: clamp(1.82rem, 8.4vw, 2.8rem);
-}
-
 .header__description p{
     padding-bottom: 4rem;
 }
@@ -113,14 +115,13 @@ header{
     /*MEDIAQUERIES DEL HEADER*/
 @media (max-width: 650px){
     header *{line-height: 1;}
+    .header__superior{flex-direction:column;}
+    .header__description p{line-height: 1.5;}
 
     .logo,
     .header__description h1{
         margin-bottom: clamp( 1rem, 3.8vw, 1.3rem);
     }
-
-    .header__superior{flex-direction:column;}
-    .header__description p{line-height: 1.5;}
 
     .header__superior{
         margin-bottom: 3rem;
