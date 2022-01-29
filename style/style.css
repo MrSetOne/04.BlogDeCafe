@@ -1,4 +1,4 @@
-/*CSS INIT*/
+/***CSS INIT***/
 *{
     margin: 0;
     padding:0;
@@ -17,7 +17,7 @@ html{
 
 
 
-/*VARIABLES*/
+/***VARIABLES***/
 :root{
     /*FUENTES*/
     --parrafo: 'Open Sans', sans-serif;
@@ -31,7 +31,7 @@ html{
 
 
 
-/*GENERALES*/
+/***GENERALES***/
 *{font-family: var(--parrafo);}
 h1{font-size: 4rem;}
 h2{font-size: 3.4rem;}
@@ -44,14 +44,16 @@ li{list-style: none;}
 
 
 
-/*UTILIDADES*/
+/***UTILIDADES***/
 .center{text-align: center;}
 .flex-center{display: flex;align-items: center;justify-content: center;}
 .c-white{color: var(--blanco);}
 
 
 
-/*HEADER*/
+/***HEADER***/
+
+    /*GENERAL*/
 header{
     background-image: url(../img/banner.jpg);
     background-position: center center;
@@ -66,12 +68,14 @@ header{
     margin: 0 auto;
 }
 
+    /*PARTE SUPERIOR*/
 .header__superior{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+    /*LOGO*/
 .logo{
     font-weight: normal;
     font-size: clamp(2.6rem, 12vw, 4rem);
@@ -81,6 +85,7 @@ header{
     font-weight: 700;
 }
 
+    /*NAV*/
 .nav{
     display: flex;
     gap: 2rem;
@@ -95,6 +100,7 @@ header{
     font-size: clamp(1.4rem, 6vw, 1.8rem)
 }
 
+    /*DECRIPCION*/
 .header__description h3{
     font-size: clamp(1.82rem, 8.4vw, 2.8rem);
 }
@@ -103,6 +109,7 @@ header{
     padding-bottom: 4rem;
 }
 
+    /*MEDIAQUERIES DEL HEADER*/
 @media (max-width: 650px){
     header *{line-height: 1;}
 
@@ -125,3 +132,4 @@ header{
         gap:.3rem;
     }
 }
+
