@@ -135,4 +135,20 @@ header{
     }
 }
 
+
+
+
+
+
 /***BODY***/
+.cuerpo{
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+img{
+    width: 100%;
+}
