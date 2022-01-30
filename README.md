@@ -14,4 +14,14 @@ De momento llevo poca cosa, pero adjunto una checklist con cosas que implementar
 - [ ] Añadir los dos puntos en "capacidad" del aside
 - [ ] Añadir los margin
 - [ ] Dejar de hacer tanto caso al gilipollas del profesor
+- [ ] Hacer mas grande el tamaño del H1
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 - [ ]
