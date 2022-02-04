@@ -1,0 +1,36 @@
+.entrada {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.entrada__imagen {
+    background-image: url(../img/blog1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+}
+
+.entrada__texto {
+    width: min(85%, 100rem);
+    padding: 0 2rem;
+    margin-top: -7rem;
+    background-color: var(--blanco);
+}
+
+.entrada__texto img {
+    height: max(40rem, 30vw);
+    object-fit: cover;
+    margin: 1rem 0
+}
+
+.entrada__texto img:first-of-type {
+    object-position: left;
+}
+
+@media (max-width: 650px) {
+    .entrada__texto {
+        margin-top: 0;
+        padding: 0;
+    }
+}
