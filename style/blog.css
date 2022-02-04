@@ -9,6 +9,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
+    width: 100%;
 }
 
 .entrada__texto {
@@ -32,6 +33,7 @@
     .entrada__texto {
         margin-top: 0;
         padding: 0;
+        width: 100%;
     }
 }
 
