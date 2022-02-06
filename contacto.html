@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>Blog de Café</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <nav class="header__superior">
+                <a href="./index.html">
+                    <h1 class="c-white logo">Blog<span>DeCafé</span></h1>
+                </a>
+                <ul class="nav">
+                    <li class="nav__item"><a href="./nosotros.html" class="c-white">Nosotros</a></li>
+                    <li class="nav__item"><a href="./cursos.html" class="c-white">Cursos</a></li>
+                    <li class="nav__item"><a href="./contacto.html" class="c-white">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="c-white center-text header__description">
+                <h3>Blog de café con consejos y cursos</h3>
+                <p>Aprende de expertos con las mejores recetas y consejos</p>
+            </div>
+        </div>
+    </header>
+    <main class="main-size center-element">
+        <div class="banner__imagen">
+            <h2 class="center-text">Contacta con nosotros</h2>
+        </div>
+        <form action="" class="form__container center-element">
+            <p class="center-text">Rellena el siguiente formularios</p>
+            <label class="form__etiqueta" for="#Nombre">Nombre</label>
+            <input class="form__campo" type="text" name="" id="Nombre">
+            <label class="form__etiqueta" for="#Email">Correo</label>
+            <input class="form__campo" type="email" name="" id="Email">
+            <label class="form__etiqueta" for="#Mensaje">Mensaje</label>
+            <textarea class="form__campo form__campo--textarea" id="mensaje"></textarea>
+            <input class="form__submit boton boton--cafe" type="submit" value="Enviar">
+        </form>
+
+    </main>
+    <footer class="header__superior footer">
+        <a href="./index.html">
+            <h1 class="c-white logo">Blog<span>DeCafé</span></h1>
+        </a>
+        <ul class="nav">
+            <li class="nav__item"><a href="./nosotros.html" class="c-white">Nosotros</a></li>
+            <li class="nav__item"><a href="./cursos.html" class="c-white">Cursos</a></li>
+            <li class="nav__item"><a href="./contacto.html" class="c-white">Contacto</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

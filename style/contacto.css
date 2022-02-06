@@ -1,0 +1,78 @@
+.banner__imagen {
+    height: clamp(29rem, 40vw, 75rem);
+    width: 100%;
+    background-image: url(../img/contacto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanco);
+    margin-top: 2rem;
+}
+
+.banner__imagen h2 {
+    font-size: min(12.2rem, 8vw);
+}
+
+.form__container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    padding: 3rem;
+    background-color: var(--blanco);
+    margin-top: -50px;
+}
+
+.form__container p {
+    grid-column: span 2;
+}
+
+.form__etiqueta {
+    text-align: right;
+}
+
+.form__campo {
+    border: var(--gris) 1px solid;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.form__campo--textarea {
+    height: 20rem;
+    resize: vertical;
+}
+
+.form__submit {
+    grid-column: span 2;
+    margin-top: 0;
+    width: 200px;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .form__container p,
+    .form__submit {
+        grid-column: unset;
+        width: 100%;
+    }
+    .form__etiqueta {
+        text-align: start;
+    }
+    .form__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .form__submit {
+        margin-top: 1rem;
+    }
+    .form__container p {
+        border-bottom: var(--gris) 1px solid;
+    }
+    .form__etiqueta:first-of-type {
+        margin-top: 1rem;
+    }
+}
