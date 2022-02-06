@@ -8,7 +8,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45rem;
+    height: clamp(29rem, 40vw, 75rem);
     width: 100%;
 }
 
