@@ -15,8 +15,8 @@ De momento llevo poca cosa, pero adjunto una checklist con cosas que implementar
 - [x] Añadir los margin
 - [x] Dejar de hacer tanto caso al gilipollas del profesor
 - [x] Hacer mas grande el tamaño del H1 y convertir a enlace hacia index
-- [ ] Añadir algo a la pagina de "sobre nosotros" para que complete la el alto de la pantalla en escritorio
-- [ ] Revisar si encuentra algo en FontAwesome para ello
+- [X] Añadir algo a la pagina de "sobre nosotros" para que complete la el alto de la pantalla en escritorio
+- [X] Revisar si encuentra algo en FontAwesome para ello
 - [X] Revisar el alto de las imagenes de la pagina "blog.html"
 - [ ]
 - [ ]

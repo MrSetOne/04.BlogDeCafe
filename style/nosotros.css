@@ -43,3 +43,29 @@
         font-size: 10vw;
     }
 }
+
+.cualidades__contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cualidades__item {
+    color: var(--cafe);
+}
+
+.cualidades__item i {
+    font-size: 6rem;
+}
+
+.cualidades__item h4 {
+    font-size: clamp(1.9rem, 4.7vw, 2.2rem);
+}
+
+@media (max-width: 950px) {
+    .cualidades__contenedor {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
