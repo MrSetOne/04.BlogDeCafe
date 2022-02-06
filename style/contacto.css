@@ -75,4 +75,8 @@
     .form__etiqueta:first-of-type {
         margin-top: 1rem;
     }
+    .form__container {
+        margin-top: 0;
+        width: 100%;
+    }
 }
