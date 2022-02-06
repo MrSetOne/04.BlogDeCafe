@@ -1,0 +1,20 @@
+.cursos__item {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+.cursos__item p span {
+    font-weight: 700;
+}
+
+@media (max-width: 720px) {
+    .cursos__item {
+        grid-template-columns: 1fr;
+    }
+    .cursos__imagen {
+        height: 50vw;
+        object-fit: cover;
+    }
+}
